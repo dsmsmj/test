@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试网页</title>
+    <!-- 使用CDN加载Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">欢迎来到测试网页</h1>
+        <p class="text-center">这是一个使用CDN加载资源的简单网页示例。</p>
+        <button id="alertButton" class="btn btn-primary d-block mx-auto">点击我</button>
+    </div>
+
+    <!-- 使用CDN加载jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- 使用CDN加载Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#alertButton').click(function() {
+                alert('按钮被点击了！');
+            });
+        });
+    </script>
+</body>
+</html>
